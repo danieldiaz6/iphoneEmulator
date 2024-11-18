@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "iPhone 14 Emulator",
+  "version": "1.0",
+  "description": "Instantly emulate iPhone 14 device with visual frame",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "webNavigation"
+  ],
+  "host_permissions": [
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/iphone16.png"
+    }
+  }
+}
